@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="herosection">
+
+        <nav class="navbar navbar-expand-lg  navbar-light bg-light " style="margin-top: -190px;">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-3 px-3  " style="background-color: #009970 ;color: #ffffff;"
+                    href="#">Bethany</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold" style="font-size: 11px;">
+                        <li class="nav-item">
+                            <a class="nav-link  text-uppercase " style="color: black;" aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-4  text-uppercase" style="color: black;" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-4  text-uppercase" style="color: black;" href="#service">service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-4  text-uppercase" style="color: black;"
+                                href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-4  text-uppercase" style="color: black;" href="#team">team</a>
+                        </li>
+                        <li class="nav-item dropdown ms-4 text-uppercase">
+                            <a class="nav-link dropdown-toggle " style="color: black;" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-4  text-uppercase">
+                            <a class="nav-link" style="color: black;" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex me-4">
+
+                        <button class="btn text-uppercase fw-bold "
+                            style="background-color: #009970;color: #ffffff;border-radius: 30px;" type="submit">get
+                            started</button>
+                    </form>
+                </div>
+            </div>
+
+
+        </nav>
+        <div class="hero-text text-center mt-5 " style="color: #ffffff;">
+            <h1 class="fw-bold">Your New Online Presence with Bethany</h1>
+            <h2 class="fs-6">WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</h2>
+            <button class="btn px-4 py-2 text-uppercase mt-5"
+                style="border-radius: 20px;border: 2px solid#ffffff; background: transparent;color: #ffffff;">get
+                started</button>
+
+        </div>
+    </div>
+
+    <div class="logo">
+        <div class="container-fluid" style="background-color: #f6f6f7;">
+            <div class="row ">
+                <div class="col-lg-2 col-md-4 col-6 py-4">
+                    <img src="./images/clients/client-1.png" class="img-fluid w-50 mt-2" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 py-4">
+                    <img src="./images/clients/client-2.png" class="img-fluid w-50  mt-2" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 py-4">
+                    <img src="./images/clients/client-3.png" class="img-fluid w-50  mt-2" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 py-4">
+                    <img src="./images/clients/client-4.png" class="img-fluid w-50  mt-2" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 py-4">
+                    <img src="./images/clients/client-5.png" class="img-fluid w-50   mt-2" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 py-4">
+                    <img src="./images/clients/client-6.png" class="img-fluid w-50  mt-2" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="about mt-5" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="fs-1 fw-bold text-uppercase">Lorem ipsum amet. ipsum dolor sit amet.</h3>
+                    <p class=" fs-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, doloribus? ipsum
+                        dolor, sit amet
+                        consectetur adipisicing elit. Ab natus magni corrupti quos eius vero.</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium perferendis
+                        necessitatibus
+                        repudiandae saepe provident tenetur iste eaque fugit sint cupiditate.</p>
+                    <p><i class="fa-solid fa-check-double" style="color: #009970;"></i> Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Ut, ex.</p>
+                    <p><i class="fa-solid fa-check-double" style="color: #009970;"></i> Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Ut, ex.</p>
+                    <p><i class="fa-solid fa-check-double" style="color: #009970;"></i> Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Ut, ex.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe cupiditate in, reprehenderit
+                        ducimus odit magnam.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="about-values mt-5 py-5 " style="background-color: #009970; ">
+            <div class="container">
+                <div class="row ms-5">
+                    <div class="col-lg-3">
+                        <h3 class="fw-bold fs-2  ms-5" style="color: #ffffff;">232</h3>
+                        <h6 class=" ms-5 text-capitalize" style="color: #ffffff;">clients</h6>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="fw-bold fs-2 ms-5" style="color: #ffffff;">521</h3>
+                        <h6 class=" ms-5 text-capitalize" style="color: #ffffff;">projects</h6>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="fw-bold fs-2  ms-5" style="color: #ffffff;">1432</h3>
+                        <h6 class=" ms-5 text-capitalize" style="color: #ffffff;">hours of support</h6>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="fw-bold fs-2  ms-5" style="color: #ffffff;">15</h3>
+                        <h6 class=" ms-5 text-capitalize" style="color: #ffffff;">hard workers</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-card">
+        <div class="container mt-5">
+
+            <div class="row">
+                <div class="col-lg-4 ">
+                    <div class="cards" style="background-color: #009970;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold fs-3" style="line-height: 40px;color: #ffffff;">Why Choose
+                                Bethany for your
+                                company website?</h5>
+                            <p class="card-text text-center" style="color: #ffffff;">Lorem ipsum dolor sit amet
+                                consectetur,
+                                adipisicing elit. Animi, sit?
+                                ipsum dolor sit amet consectetur adipisicing elit. Eveniet est adipisci praesentium qui
+                                rtggdbdfgsdfghdf dgsdfgsdfgdfh tgsdfgdfbdfgrtfy sfgdfgdsdf nzsfsdg zsfgsdgrtreg
+                                svgsdgasdgdggdfg
+                                supporting text below as a natural
+                                lead-in to additional content.</p>
+                            <a href="#" class="btn" style="color: #ffffff;background-color: transparent;">learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-8">
+                    <div class="about-cards mt-5">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card shadow-sm" style="border-radius: 10px;border: none;">
+                                    <div class="card-body">
+                                        <div class="cardss text-center  fs-1 fw-bold" style="color: #009970;"><i
+                                                class="fa-solid fa-receipt"></i></div>
+                                        <h5 class="card-title  text-center">Corporis voluptates sit
+                                        </h5>
+                                        <p class="card-text  text-center">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+
+                                            tedc sxfdfsdfadipisicing
+                                            elit.
+                                            Animi, sit?
+                                            ipsum dolor </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card  shadow-sm" style="border-radius: 10px; border: none;">
+                                    <div class="card-body">
+                                        <div class="cardss text-center  fs-1 fw-bold" style="color: #009970;"><i
+                                                class="fa-solid fa-cube"></i></div>
+                                        <h5 class="card-title  text-center">Corporis voluptates sit
+                                        </h5>
+                                        <p class="card-text  text-center">Lorem amet consectetur adipisicing
+                                            elit.
+                                            Ea voluptas dolore
+
+                                            elit.
+                                            Animi, sit?
+                                            ipsum dolor
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card shadow-sm" style="border-radius: 10px;border: none; ">
+                                    <div class="card-body">
+                                        <div class="cardss text-center fs-1 fw-bold" style="color: #009970;"><i
+                                                class="fa-solid fa-images"></i></div>
+                                        <h5 class="card-title  text-center">Corporis voluptates sit
+                                        </h5>
+                                        <p class="card-text  text-center">Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Iste suscipit thdfsef
+
+
+                                            ipsum dolor </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content mt-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 style="color: #ffffff;">Call To Action</h3>
+                    <p style="color: #ffffff;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, porro
+                        totam expedita voluptate
+                        vitae enim.</p>
+                    <button class=" btn px-4 py-2 text-uppercase"
+                        style="border-radius: 20px;border: 2px solid#ffffff; background: transparent;color: #ffffff;">get
+                        started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="service" style="background-color: #f6f6f7;" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3 class="ms-5 mt-5 text-uppercase">services</h3>
+                    <div class="line ms-5"></div>
+                    <p class="ms-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, in sapiente!
+                        Sit harum nobis odit, maiores debitis fugiat adipisci similique?</p>
+                </div>
+                <div class="col-lg-8  service-big">
+                    <div class="row mt-5 ms-5">
+                        <div class="col-lg-5 col-md-8 col-12 py-4 text-center shadow-sm  service-card bg-light">
+                            <i class="fa-solid fa-basketball fs-2 mt-4"
+                                style="border: 1px solid #009970;padding: 20px 20px;border-radius: 50px;color: #009970;"></i>
+                            <p class="mt-4 service-para fw-bold fs-4">Lorem, ipsum., </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div
+                            class="col-lg-5  col-md-8 col-12 py-4 ms-lg-5 gy-5  text-center shadow-sm  service-card bg-light ">
+                            <i class="fa-regular fa-file-lines fs-2 mt-4"
+                                style="border: 1px solid #009970;padding: 20px 20px;border-radius: 50px;color: #009970;"></i>
+                            <p class="mt-4 service-para fw-bold fs-4 ">Lorem, ipsum., </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-5  ms-5">
+                        <div class="col-lg-5  col-md-8 col-12 py-4 text-center shadow-sm  service-card bg-light">
+                            <i class="fa-solid fa-gauge-high fs-2 mt-4"
+                                style="border: 1px solid #009970;padding: 20px 20px;border-radius: 50px;color: #009970;"></i>
+                            <p class="mt-4 service-para fw-bold fs-4">Lorem, ipsum., </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div
+                            class="col-lg-5  col-md-8 col-12 py-4  ms-lg-5 gy-5  text-center shadow-sm service-card bg-light">
+                            <i class="fa-solid fa-earth-americas fs-2 mt-4"
+                                style="border: 1px solid #009970;padding: 20px 20px;border-radius: 50px;color: #009970;"></i>
+                            <p class="mt-4 service-para fw-bold fs-4">Lorem, ipsum., </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="ms-5 mt-5 text-uppercase">PORTFOLIO</h3>
+                    <div class="line ms-5"></div>
+                    <p class="ms-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos assumenda ullam
+                        blanditiis voluptate illo beatae ex explicabo autem quod doloribus? ipsum dolor sit amet,
+                        consectetur adipisicing elit. Provident, in sapiente!
+                        Sit harum nobis odit, maiores debitis fugiat adipisci similique?</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-8 ms-auto ">
+                    <div class="portfolio d-flex gap-4 ">
+                        <button class="port-btn px-3 text-uppercase"
+                            style="border: none;border-radius: 10px;background-color: #009970;">all</button>
+                        <button class="port-btn px-3 text-uppercase"
+                            style="border: none;border-radius: 10px;">app</button>
+                        <button class="port-btn px-3 text-uppercase"
+                            style="border: none;border-radius: 10px;">card</button>
+                        <button class="port-btn px-3 text-uppercase"
+                            style="border: none;border-radius: 10px;">web</button>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mt-5 p-2">
+                <div class="col-lg-4 gy-4">
+                    <div class="port-card">
+                        <div class="port-he">
+                            <img src="./images/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="port-text text-center text-light p-5">
+                            <h5 class="text-capitalize mt-5">app1</h5>
+                            <p class="text-uppercase">app</p>
+                            <i class="fa-solid fa-plus"></i> <i class="fa-solid fa-link"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4  gy-4">
+                    <div class="port-card">
+                        <div class="port-he">
+                            <img src="./images/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="port-text text-center text-light p-5">
+                            <h5 class="text-capitalize mt-5">app1</h5>
+                            <p class="text-uppercase">app</p>
+                            <i class="fa-solid fa-plus"></i> <i class="fa-solid fa-link"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gy-4">
+                    <div class="port-card">
+                        <div class="port-he">
+                            <img src="./images/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="port-text text-center text-light p-5">
+                            <h5 class="text-capitalize mt-5">app1</h5>
+                            <p class="text-uppercase">app</p>
+                            <i class="fa-solid fa-plus"></i> <i class="fa-solid fa-link"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-4 gy-4">
+                    <div class="port-card">
+                        <div class="port-he">
+                            <img src="./images/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="port-text text-center text-light p-5">
+                            <h5 class="text-capitalize mt-5">app1</h5>
+                            <p class="text-uppercase">app</p>
+                            <i class="fa-solid fa-plus"></i> <i class="fa-solid fa-link"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4  gy-4">
+                    <div class="port-card">
+                        <div class="port-he">
+                            <img src="./images/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="port-text text-center text-light p-5">
+                            <h5 class="text-capitalize mt-5">app1</h5>
+                            <p class="text-uppercase">app</p>
+                            <i class="fa-solid fa-plus"></i> <i class="fa-solid fa-link"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gy-4">
+                    <div class="port-card">
+                        <div class="port-he">
+                            <img src="./images/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="port-text text-center text-light p-5">
+                            <h5 class="text-capitalize mt-5">app1</h5>
+                            <p class="text-uppercase">app</p>
+                            <i class="fa-solid fa-plus"></i> <i class="fa-solid fa-link"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mt-4 ">
+                <div class="col-lg-4  gy-4">
+                    <div class="port-card">
+                        <div class="port-he">
+                            <img src="./images/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="port-text text-center text-light p-5">
+                            <h5 class="text-capitalize mt-5">app1</h5>
+                            <p class="text-uppercase">app</p>
+                            <i class="fa-solid fa-plus"></i> <i class="fa-solid fa-link"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gy-4">
+                    <div class="port-card">
+                        <div class="port-he">
+
+                            <img src="./images/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="port-text text-center text-light p-5">
+                            <h5 class="text-capitalize mt-5">app1</h5>
+                            <p class="text-uppercase">app</p>
+                            <i class="fa-solid fa-plus"></i> <i class="fa-solid fa-link"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  gy-4">
+                    <div class="port-card">
+                        <div class="port-he">
+
+                            <img src="./images/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="port-text text-center text-light p-5">
+                            <h5 class="text-capitalize mt-5">app1</h5>
+                            <p class="text-uppercase">app</p>
+                            <i class="fa-solid fa-plus"></i> <i class="fa-solid fa-link"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        </div>
+    </section>
+
+    <section class="testimonials mt-5" style="background-color: #f6f6f7;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3 class="ms-5 mt-5 text-uppercase">testominal</h3>
+                    <div class="line ms-5"></div>
+                    <p class="ms-5 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos assumenda ullam
+
+
+                        Sit harum nobis odit, maiores debitis fugiat adipisci similique?</p>
+                </div>
+                <div class="col-lg-8 mt-5">
+                    <section class="slider-container">
+                        <div class="container">
+                            <div class="swiper card-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+
+                                        <div class="cards mx-auto shadow-sm"
+                                            style="border: none; width: 330px;background-color: white;">
+                                            <p class="card-text p-4" style="height: 140px;"><i
+                                                    class="fa-solid fa-quote-left fw-bold fs-4"
+                                                    style="color: #00cc95;"></i>Lorem ipsum
+                                                dolor sit amet consectetur adipisicing elit.
+                                                Similique, quae. ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Suscipit,
+                                                animi!Some quick example text to build on the card title and make up
+                                                the bulk of the card's content thesdf tasd.<i
+                                                    class="fa-solid fa-quote-right fw-bold fs-4"
+                                                    style="color: #00cc95;"></i></p>
+
+                                            <div class="card-body text-center mt-5">
+                                                <img src="./images/testimonials/testimonials-1.jpg" class="img-fluid"
+                                                    style="width: 100px;border: 10px solid white;border-radius: 50px;"
+                                                    alt="...">
+                                                <h5 class="fw-bold text-capitalize">saul goodman</h5>
+                                                <p class="text-muted">ceo&founder</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="cards mx-auto shadow-sm"
+                                            style="border: none; width: 330px;background-color: white;">
+                                            <p class="card-text p-4" style="height: 140px;"><i
+                                                    class="fa-solid fa-quote-left fw-bold fs-4"
+                                                    style="color: #00cc95;"></i>Lorem ipsum
+                                                dolor sit amet consectetur adipisicing elit.
+                                                Similique, quae. ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Suscipit,
+                                                animi!Some quick example text to build on the card title and make up
+                                                the bulk of the card's content thesdf tasd.<i
+                                                    class="fa-solid fa-quote-right fw-bold fs-4"
+                                                    style="color: #00cc95;"></i></p>
+
+                                            <div class="card-body text-center mt-5">
+                                                <img src="./images/testimonials/testimonials-2.jpg" class="img-fluid"
+                                                    style="width: 100px;border: 10px solid white;border-radius: 50px;"
+                                                    alt="...">
+                                                <h5 class="fw-bold text-capitalize">saul goodman</h5>
+                                                <p class="text-muted">ceo&founder</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="swiper-slide">
+
+                                        <div class="cards mx-auto shadow-sm"
+                                            style="border: none; width: 330px;background-color: white;">
+                                            <p class="card-text p-4" style="height: 140px;"><i
+                                                    class="fa-solid fa-quote-left fw-bold fs-4"
+                                                    style="color: #00cc95;"></i>Lorem ipsum
+                                                dolor sit amet consectetur adipisicing elit.
+                                                Similique, quae. ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Suscipit,
+                                                animi!Some quick example text to build on the card title and make up
+                                                the bulk of the card's content thesdf tasd.<i
+                                                    class="fa-solid fa-quote-right fw-bold fs-4"
+                                                    style="color: #00cc95;"></i></p>
+
+                                            <div class="card-body text-center mt-5">
+                                                <img src="./images/testimonials/testimonials-3.jpg" class="img-fluid"
+                                                    style="width: 100px;border: 10px solid white;border-radius: 50px;"
+                                                    alt="...">
+                                                <h5 class="fw-bold text-capitalize">saul goodman</h5>
+                                                <p class="text-muted">ceo&founder</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+
+                                        <div class="cards mx-auto shadow-sm"
+                                            style="border: none; width: 330px;background-color: white;">
+                                            <p class="card-text p-4" style="height: 140px;"><i
+                                                    class="fa-solid fa-quote-left fw-bold fs-4"
+                                                    style="color: #00cc95;"></i>Lorem ipsum
+                                                dolor sit amet consectetur adipisicing elit.
+                                                Similique, quae. ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Suscipit,
+                                                animi!Some quick example text to build on the card title and make up
+                                                the bulk of the card's content thesdf tasd.<i
+                                                    class="fa-solid fa-quote-right fw-bold fs-4"
+                                                    style="color:#00cc95;"></i></p>
+
+                                            <div class="card-body text-center mt-5">
+                                                <img src="./images/testimonials/testimonials-4.jpg" class="img-fluid"
+                                                    style="width: 100px;border: 10px solid white;border-radius: 50px;"
+                                                    alt="...">
+                                                <h5 class="fw-bold text-capitalize">saul goodman</h5>
+                                                <p class="text-muted">ceo&founder</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+
+                                        <div class="cards mx-auto shadow-sm"
+                                            style="border: none; width: 330px;background-color: white;">
+                                            <p class="card-text p-4" style="height: 140px;"><i
+                                                    class="fa-solid fa-quote-left fw-bold fs-4"
+                                                    style="color: #00cc95;"></i>Lorem ipsum
+                                                dolor sit amet consectetur adipisicing elit.
+                                                Similique, quae. ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Suscipit,
+                                                animi!Some quick example text to build on the card title and make up
+                                                the bulk of the card's content thesdf tasd.<i
+                                                    class="fa-solid fa-quote-right fw-bold fs-4"
+                                                    style="color: #00cc95;"></i></p>
+
+                                            <div class="card-body text-center mt-5">
+                                                <img src="./images/testimonials/testimonials-5.jpg" class="img-fluid"
+                                                    style="width: 100px;border: 10px solid white;border-radius: 50px;"
+                                                    alt="...">
+                                                <h5 class="fw-bold text-capitalize">saul goodman</h5>
+                                                <p class="text-muted">ceo&founder</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+    </section>
+    </div>
+
+    <section class="team" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3 class="ms-5 mt-5 text-uppercase">team</h3>
+                    <div class="line ms-5 fw-bold"></div>
+                    <p class="ms-5 ">Lorem ipsum, dolor sit amet consectetur aumenda ullam </p>
+                </div>
+                <div class="col-lg-8 mt-5">
+                    <div class="row gy-4">
+                        <div class="col-lg-6">
+                            <div class="cardd text-center py-4 "
+                                style="box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
+                                <img src="./images/team/team-1.jpg" class="img-fluid rounded-circle" width="150px"
+                                    alt="...">
+                                <div class="card-body mt-2">
+                                    <h5 class="card-title">Walter White</h5>
+                                    <h6 class="text-muted fs-6">Chief Executive Officer</h6>
+                                    <div class="fraam mx-auto"></div>
+                                    <p class="card-text text-muted">Some quick example text to build on the card title
+                                        and make </p>
+
+                                    <div class="social">
+                                        <i class="fa-brands fa-twitter  "
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-facebook ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-instagram ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-linkedin ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="cardd text-center py-4 "
+                                style="box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
+                                <img src="./images/team/team-2.jpg" class="img-fluid rounded-circle" width="150px"
+                                    alt="...">
+                                <div class="card-body mt-2">
+                                    <h5 class="card-title">Walter White</h5>
+                                    <h6 class="text-muted fs-6">Chief Executive Officer</h6>
+                                    <div class="fraam mx-auto"></div>
+                                    <p class="card-text text-muted">Some quick example text to build on the card title
+                                        and make </p>
+
+                                    <div class="social">
+                                        <i class="fa-brands fa-twitter  "
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-facebook ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-instagram ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-linkedin ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 gy-5">
+                        <div class="col-lg-6  ">
+                            <div class="cardd text-center py-4 "
+                                style="box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; ">
+                                <img src="./images/team/team-3.jpg" class="img-fluid rounded-circle " width="150px"
+                                    alt="...">
+                                <div class="card-body mt-2">
+                                    <h5 class="card-title">Walter White</h5>
+                                    <h6 class="text-muted fs-6">Chief Executive Officer</h6>
+                                    <div class="fraam mx-auto"></div>
+                                    <p class="card-text text-muted">Some quick example text to build on the card title
+                                        and make </p>
+
+                                    <div class="social">
+                                        <i class="fa-brands fa-twitter  "
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-facebook ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-instagram ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-linkedin ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="cardd text-center py-4 "
+                                style="box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
+                                <img src="./images/team/team-4.jpg" class="img-fluid rounded-circle " width="150px"
+                                    alt="...">
+                                <div class="card-body mt-2">
+                                    <h5 class="card-title">Walter White</h5>
+                                    <h6 class="text-muted fs-6">Chief Executive Officer</h6>
+                                    <div class="fraam mx-auto"></div>
+                                    <p class="card-text text-muted">Some quick example text to build on the card title
+                                        and make </p>
+
+                                    <div class="social">
+                                        <i class="fa-brands fa-twitter  "
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-facebook ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-instagram ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                        <i class="fa-brands fa-linkedin ms-2"
+                                            style="color: #ffffff;background-color: gray; padding: 8px 8px;border-radius: 15px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact " id="contact">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-4 mt-5">
+                    <h3 class="ms-5 mt-5 text-uppercase">contact</h3>
+                    <div class="line ms-5 fw-bold"></div>
+                    <p class="ms-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem dolor ex
+                        possimus tempora eligendi aliquid quasi quos, eum a. ipsum, dolor sit amet consectetur aumenda
+                        ullam </p>
+                </div>
+                <div class="col-lg-8 mt-5 col-sm-12 col-12" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <div class="mapss">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317716.60653905926!2d-0.43125223358997106!3d51.52860700068324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1695374482083!5m2!1sen!2sin"
+                            height="250" style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-12">
+                            <div class="location d-flex ms-5 shadow-sm bg-light ">
+                                <div class="location-icon">
+                                    <i class="fa-solid fa-location-dot  fs-3 mt-2"
+                                        style="background-color: #009970;color: #ffffff;border-radius: 50px;padding: 10px 15px;"></i>
+                                </div>
+                                <div class="location-text ms-4 mt-2">
+                                    <h4> location:</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, facilis. Ea at
+                                        repellat aspernatur accusantium. ipsum dolor sit amet consectetur adipisicing
+                                        elit. Assumenda, eius.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-6">
+                            <div class="location d-flex ms-5 shadow-sm bg-light ">
+                                <div class="location-icon">
+                                    <i class="fa-solid fa-envelope fs-3 mt-2"
+                                        style="background-color: #009970;padding: 15px 15px;color: #ffffff;border-radius: 50px;"></i>
+                                </div>
+                                <div class="location-text ms-4 mt-2">
+                                    <h4> location:</h4>
+                                    <p>Lorem ipsum dolor sit </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="location d-flex ms-5 shadow-sm bg-light ">
+                                <div class="location-icon">
+                                    <i class="fa-solid fa-mobile-screen fs-3 mt-2"
+                                        style="background-color: #009970;padding: 10px 15px;color: #ffffff;border-radius: 50px;"></i>
+                                </div>
+                                <div class="location-text ms-4 mt-2">
+                                    <h4> location:</h4>
+                                    <p>Lorem ipsum dolor </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ms-5 shadow-sm mt-3"
+                        style="box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;">
+                        <div class="col-lg-12">
+                            <div class="row mt-5">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name"
+                                        aria-label="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name"
+                                        aria-label="Last name">
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-12">
+                                    <input type="text" class="form-control" placeholder="City" aria-label="City">
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control " placeholder="Leave a comment here"
+                                            id="floatingTextarea"></textarea>
+                                        <label for="floatingTextarea">Comments</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-lg-12 text-center mb-3 mt-3">
+                                    <button class=" px-5 py-2"
+                                        style="background-color: #009970;border: none;border-radius: 30px; "> i love
+                                        you</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="foote">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-3">
+                    <div class="brthty" style="font-family: 'Open Sans', sans-serif;">
+                        <h2>Bethany</h2>
+                        <p>ooapatti <br> vilathupatti <br> pudukkottai</p>
+                        <p>phone:76390 55050</p>
+                        <p>phone:76390 55050</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="brthty" style="font-family: 'Open Sans', sans-serif;">
+                        <h6 class="fw-bold">Useful Links</h6>
+                        <p><i class="fa-solid fa-angle-right" style="color:#00cc95;"></i> Home</p>
+                        <p><i class="fa-solid fa-angle-right" style="color:#00cc95;"></i> About</p>
+                        <p><i class="fa-solid fa-angle-right" style="color:#00cc95;"></i> service</p>
+                        <p><i class="fa-solid fa-angle-right" style="color:#00cc95;"></i> terms of service</p>
+                        <p><i class="fa-solid fa-angle-right" style="color:#00cc95;"></i> privacy police</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="brthty" style="font-family: 'Open Sans', sans-serif;">
+                        <h6 class="fw-bold">Our Services</h6>
+                        <p><i class="fa-solid fa-angle-right" style="color:#00cc95;"></i> web design</p>
+                        <p><i class="fa-solid fa-angle-right" style="color:#00cc95;"></i> Web development</p>
+                        <p><i class="fa-solid fa-angle-right" style="color:#00cc95;"></i> Product Management</p>
+                        <p><i class="fa-solid fa-angle-right" style="color:#00cc95;"></i> Marketing</p>
+                        <p><i class="fa-solid fa-angle-right" style="color:#00cc95;"></i> Grapic Desingn</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3" >
+                    <div class="brthty" style="font-family: 'Open Sans', sans-serif;">
+                        <h6 class="fw-bold">Join Our Newsletter</h6>
+                        <p>Lorem ipsum dolor sit amet quam illo possimus?</p>
+                        <form class="row">
+
+                            <div class="col-lg-12 d-flex">
+
+                                <input type="password" class="form-control" style="border-radius: 20px;"
+                                    id="inputPassword2" placeholder="">
+                                <div class="cf">
+                                    <button type="submit" class="btn btn-primary">Confirm</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript">
+        var swiper = new Swiper(".card-slider", {
+
+            spaceBetween: 30,
+            slidesPerView: 3,
+            loop: true,
+            speed: 1000,
+            autoplay: {
+                delay: 2000,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+
+                },
+                480: {
+                    slidesPerView: 1,
+
+                },
+                768: {
+                    slidesPerView: 3,
+
+                },
+                1200: {
+                    slidesPerView: 2,
+
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>

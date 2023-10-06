@@ -1,0 +1,10 @@
+@media(max-width:576px) {
+    .port-text{
+      width: 510px;
+      height:385px;
+      margin-top: -385px;
+    }
+}
+
+
+
